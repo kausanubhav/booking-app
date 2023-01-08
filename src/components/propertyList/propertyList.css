@@ -1,0 +1,30 @@
+.pList{
+    width: 100%;
+    max-width: 1024px;
+    gap: 20px;
+    justify-content: space-between;
+    display: flex;
+}
+/* since the parent div has diplay flex, we can use flex:1 to make the images of equal width */
+.pListItem{
+    flex: 1;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.pListImg{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.pListTitles>h1{
+    font-size: 18px;
+
+}
+.pListTitles>h2{
+    font-size: 14px;
+    font-weight: 400;
+    
+}
